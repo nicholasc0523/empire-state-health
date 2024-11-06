@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Navigation Styles */
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+nav ul li {
+    display: inline; /* Displays list items in a row */
+    margin-right: 20px; /* Adds space between items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px; /* Adds padding around links */
+    border-radius: 5px;
+    background-color: #00cc00; /* Green button color */
+}
+
+nav ul li a:hover {
+    background-color: #009900; /* Darker green on hover */
+}
+
+
+  /* Container Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Section Styles */
+  section {
+    margin-top: 20px;
+    border-top: 2px solid #00cc00;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px solid #00cc00;
+  }

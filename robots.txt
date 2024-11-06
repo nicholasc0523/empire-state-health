@@ -1,0 +1,47 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: Your mom
+
+So...come here often?
+If this is a blue team member accessing this page, congrats on making sure to check out the far reaches of your infrastructure!
+Here is a fun short story...
+
+Lost Journal Entries of a Blue Teamer:
+
+Day 1:
+
+Found an odd directory on the website today. Not sure how it got there, but it doesn't look right. Spent hours trying to trace it back but hit a dead end.
+
+Day 3:
+
+The same directory popped up. This is getting frustrating. Checked the logs, but nothing seems off. Starting to feel like I'm chasing ghosts.
+
+Day 7:
+
+Spent the whole day scanning for vulnerabilities. Sadly I haven't found anything that could restore our services.
+
+Day 10:
+
+Got an alert about a potential breach. Heart raced, but it was a false alarm. Starting to feel paranoid. Everyone else says it's secure, but I can't shake this feeling.
+
+Day 14:
+
+Couldn't sleep. Came in early to dig deeper. Still can't find anything concrete. Maybe I'm missing something obvious?
+
+Day 21:
+
+Had a meltdown in the office today. Convinced someone's messing with me. Everyone thinks I'm overreacting. Maybe I am. But I know it's not here. It can't be.
+
+Day 28:
+
+Decided to take a break from the search. Went for a walk, tried to clear my head. Still no closer to figuring it out. Feeling defeated.
+
+Day 35:
+
+Found the source of the weird directories. Turns out, it was a glitch from an old system update. Feel both relieved and embarrassed. Time to clean up and move on.
+
+
+Congrats on wasting time! :)
+
+Now quit procrastinating and get back to work!!
+

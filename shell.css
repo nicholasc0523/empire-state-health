@@ -1,0 +1,66 @@
+body {
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Green text */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00ff00; /* Green headers */
+}
+
+h1 {
+    border-bottom: 2px solid #00ff00; /* Underline for main title */
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 800px; /* Limit the width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+.input-area {
+    background-color: #111; /* Darker area for input */
+    border: 1px solid #00ff00; /* Green border */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.input-area textarea {
+    width: 100%; /* Full width for the text area */
+    height: 200px; /* Set height */
+    background-color: #000; /* Black background for text area */
+    color: #00ff00; /* Green text */
+    border: none; /* No border */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    resize: none; /* Disable resizing */
+}
+
+.input-area textarea:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+button {
+    background-color: #00cc00; /* Lighter green button */
+    color: #000; /* Black text */
+    border: none; /* No border */
+    padding: 10px 20px;
+    cursor: pointer; /* Pointer cursor */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+}
+
+button:hover {
+    background-color: #009900; /* Darker green on hover */
+}
+
+.output-area {
+    background-color: #111; /* Dark background for output */
+    color: #00ff00; /* Green text */
+    border: 1px solid #00ff00; /* Green border */
+    padding: 10px;
+    margin-top: 20px;
+    white-space: pre-wrap; /* Preserve whitespace */
+}
