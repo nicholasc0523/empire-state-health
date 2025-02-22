@@ -36,25 +36,25 @@
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #00cc00; /* Green button color */
+    background-color: #5A00B4; /* Purple button color - replaces #00cc00 */
   }
   
   nav ul li a:hover {
-    background-color: #009900; /* Darker green on hover */
+    background-color: #330066; /* Darker purple on hover - replaces #009900 */
   }
   
   /* Button Styles */
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00cc00;
+    background-color: #5A00B4;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
   }
   
   .button:hover {
-    background-color: #009900;
+    background-color: #330066;
   }
   
   /* Section Styles */
@@ -92,6 +92,6 @@
     bottom: 0;
     width: 100%;
     margin-top: 20px;
-    border-top: 2px solid #00cc00;
+    border-top: 2px solid #5A00B4;
   }
   
