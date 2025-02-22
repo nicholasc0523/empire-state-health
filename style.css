@@ -44,11 +44,11 @@ nav ul li a {
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #00cc00;
+  background-color: #5A00B4;
 }
 
 nav ul li a:hover {
-  background-color: #351F80;
+  background-color: #330066;
 }
 
 .landscapeimg {
@@ -72,7 +72,7 @@ img {
 
 .news {
   margin-top: 20px;
-  border-top: 2px solid #00cc00;
+  border-top: 2px solid #5A00B4;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -87,7 +87,7 @@ img {
 
 .events {
   margin-top: 20px;
-  border-top: 2px solid #00cc00;
+  border-top: 2px solid #5A00B4;
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -114,5 +114,5 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: 20px;
-  border-top: 2px solid #00cc00;
+  border-top: 2px solid #5A00B4;
 }
