@@ -29,11 +29,11 @@ nav ul li a {
     text-decoration: none;
     padding: 5px 10px; /* Adds padding around links */
     border-radius: 5px;
-    background-color: #00cc00; /* Green button color */
+    background-color: #5A00B4; /* Purple button color - replaces #00cc00 */
 }
 
 nav ul li a:hover {
-    background-color: #009900; /* Darker green on hover */
+    background-color: #330066; /* Darker purple on hover - replaces #009900 */
 }
 
 
@@ -55,7 +55,7 @@ nav ul li a:hover {
   /* Section Styles */
   section {
     margin-top: 20px;
-    border-top: 2px solid #00cc00;
+    border-top: 2px solid #5A00B4;
     padding-top: 20px;
   }
   
@@ -77,5 +77,5 @@ nav ul li a:hover {
     bottom: 0;
     width: 100%;
     margin-top: 20px;
-    border-top: 2px solid #00cc00;
+    border-top: 2px solid #5A00B4;
   }
