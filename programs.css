@@ -13,20 +13,20 @@
     justify-content: space-between;
   }
   
-  .sport {
+  .program {
     margin-bottom: 40px;
     flex: 0 0 calc(25% - 10px);
   }
   
-  .sport img {
+  .program img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
   }
   
-  .sport h3,
-  .sport p {
+  .program h3,
+  .program p {
     text-align: center;
   }
 
