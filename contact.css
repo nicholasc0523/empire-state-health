@@ -5,44 +5,6 @@
     padding: 20px;
   }
   
-  /* Header Styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  /* Navigation Styles */
-  nav {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #5A00B4; /* Purple button color - replaces #00cc00 */
-  }
-  
-  nav ul li a:hover {
-    background-color: #330066; /* Darker purple on hover - replaces #009900 */
-  }
-  
   /* Button Styles */
   .button {
     display: inline-block;
@@ -80,18 +42,6 @@
   .contact-person h3,
   .contact-person p {
     text-align: center;
-  }
-  
-  /* Footer Styles */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
-    border-top: 2px solid #5A00B4;
+	margin: 12px;
   }
   

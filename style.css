@@ -1,11 +1,8 @@
-body,
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
 
 .container {
   max-width: 1200px;
@@ -14,6 +11,7 @@ p {
   padding: 20px;
 }
 
+/* Header Styles */
 header {
   background-color: #333;
   color: #fff;
@@ -21,6 +19,7 @@ header {
   text-align: center;
 }
 
+/* Navigation Styles */
 nav {
   background-color: #000;
   color: #fff;
@@ -30,25 +29,26 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default margin */
+  margin: 0; /* Removes default margin */
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 20px;
+  display: inline; /* Displays list items in a row */
+  margin-right: 20px; /* Adds space between items */
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 10px; /* Adds padding around links */
   border-radius: 5px;
-  background-color: #5A00B4;
+  background-color: #5A00B4; /* Purple button color - replaces #00cc00 */
 }
 
 nav ul li a:hover {
-  background-color: #330066;
+  background-color: #330066; /* Darker purple on hover - replaces #009900 */
 }
 
 .landscapeimg {
@@ -105,6 +105,7 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Footer Style */
 footer {
   background-color: #333;
   color: #fff;
