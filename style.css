@@ -1,16 +1,22 @@
 /* Reset some default browser styles */
 body, p {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
   
 h1, h2, h3 { 
-	padding: 0;
-  }
+  padding: 0;
+}
 
 .container {
   max-width: 1200px;
   width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-alt {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -109,7 +115,7 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Style */
+/* Footer Styles */
 footer {
   background-color: #333;
   color: #fff;
@@ -120,4 +126,123 @@ footer {
   width: 100%;
   margin-top: 20px;
   border-top: 2px solid #5A00B4;
+}
+
+p#copyright {
+	color: white;
+}
+
+
+/* --BEGIN MIGRATED about.css MARKUP-- */
+/* section class for about.html specifically */
+.mission {
+  margin-top: 20px;
+  border-top: 2px solid #5A00B4;
+  padding-top: 20px;
+}
+
+/* h2 within mission */
+.mission h2 {
+  color: #333;
+}
+
+/* p within mission */
+.mission p {
+  color: #666;
+}
+/* --BEGIN MIGRATED about.css MARKUP-- */
+
+
+/* --BEGIN MIGRATED calendar.css MARKUP-- */
+.events-cal {
+  margin-top: 20px;
+  border-top: 2px solid #5A00B4;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-item-cal {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* --END MIGRATED calendar.css MARKUP-- */
+  
+
+/* --BEGIN MIGRATED programs.css MARKUP-- */
+.container-prog {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* section class for programs.html specifically */
+.our-programs {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+.our-programs div {
+  margin-bottom: 40px;
+  flex: 0 0 calc(25% - 10px);
+}
+  
+.our-programs img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+  
+.our-programs h3, 
+.our-programs p {
+  text-align: center;
+}
+/* --END MIGRATED programs.css MARKUP-- */
+
+
+/* --BEGIN MIGRATED contact.css MARKUP-- */
+/* section class for contact.css specifically */
+.contacts {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+.contacts div {
+  margin-bottom: 40px;
+  flex: 0 0 calc(30% - 50px);
+}
+  
+.contacts img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+  
+.contacts h3,
+.contacts p {
+  text-align: center;
+  margin: 12px;
+}
+
+
+
+.container-alt h1, 
+.container-alt h2, 
+.container-alt h3,
+.container-alt body,
+.container-alt p {
+  margin: 0;
+  padding: 0;
 }

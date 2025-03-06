@@ -1,18 +1,18 @@
-/* Section Styles */
-section {
-    margin-top: 20px;
+/* --CUSTOM CSS FOR 'ABOUT' PAGE-- */
+
+/* section class for about.html specifically */
+.mission {
+	/* margin-top: 20px; */
     border-top: 2px solid #5A00B4;
     padding-top: 20px;
 }
-  
-h2 {
-    color: #333;
-}
-  
-p {
-    color: #666;
+
+/* h2 within mission */
+.mission h2 {
+	color: #333;
 }
 
-p#copyright {
-	color: white;
+/* p within mission */
+.mission p {
+	color: #666;
 }

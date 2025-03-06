@@ -1,61 +1,30 @@
-/* Reset some default browser styles */
-body,
-h1,
-h2,
-h3,
-p {
+/* OLD??? Reset some default browser styles */
+/*
+body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
+*/
+
 
 /* Container Styles */
-.container {
+.container-cal {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Header Styles */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
 
+/* OLD??? */
 /* Navigation Styles */
-nav {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
+/* 
 nav ul {
   list-style-type: none;
   padding: 0;
 }
+*/
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #5A00B4;
-}
-
-nav ul li a:hover {
-  background-color: #330066;
-}
-
-/* Event Styles */
-.events {
+.events-cal {
   margin-top: 20px;
   border-top: 2px solid #5A00B4;
   padding-top: 20px;
@@ -64,7 +33,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
-.event-item {
+.event-item-cal {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
@@ -72,17 +41,4 @@ nav ul li a:hover {
   box-sizing: border-box;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer Styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  margin-top: 20px;
-  border-top: 2px solid #5A00B4;
 }
