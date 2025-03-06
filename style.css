@@ -21,6 +21,15 @@ h1, h2, h3 {
   padding: 20px;
 }
 
+.container-alt h1, 
+.container-alt h2, 
+.container-alt h3,
+.container-alt body,
+.container-alt p {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header Styles */
 header {
   background-color: #333;
@@ -235,14 +244,32 @@ p#copyright {
   text-align: center;
   margin: 12px;
 }
+/* --END MIGRATED contact.css MARKUP-- */
 
 
-
-.container-alt h1, 
-.container-alt h2, 
-.container-alt h3,
-.container-alt body,
-.container-alt p {
-  margin: 0;
-  padding: 0;
+/* --BEGIN MIGRATED departments.css MARKUP-- */
+/* div class made for departments */
+.depts {
+  margin-top: 20px;
+  border-top: 2px solid #5A00B4;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.dept-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.depts img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/* --END MIGRATED departments.css MARKUP-- */
