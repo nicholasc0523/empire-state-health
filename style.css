@@ -1,3 +1,8 @@
+/* Set all font to Georgia */
+* {
+  font-family: Georgia, serif;
+}
+
 /* Reset some default browser styles */
 body, p {
   margin: 0;
@@ -8,21 +13,24 @@ h1, h2, h3 {
   padding: 0;
 }
 
+h1 {
+  font-size: 250%;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 12px;
 }
 
 .container-alt {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 12px;
 }
 
-.container-alt h1, 
-.container-alt h2, 
+/* .container-alt h2,  */
 .container-alt h3,
 .container-alt body,
 .container-alt p {
@@ -30,9 +38,17 @@ h1, h2, h3 {
   padding: 0;
 }
 
+.subtitle {
+  padding: 12px;
+}
+
+.subtitle h2 {
+  margin: 0;
+}
+
 /* Header Styles */
 header {
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -40,28 +56,30 @@ header {
 
 /* Navigation Styles */
 nav {
-  background-color: #000;
+  background-color: #5A00B4;
   color: #fff;
   padding: 10px 0;
   text-align: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 nav ul {
   list-style-type: none; /* Removes bullet points */
   padding: 0; /* Removes default margin */
   margin: 0; /* Removes default margin */
+  /* justify-content: center; */
 }
 
 nav ul li {
   display: inline; /* Displays list items in a row */
-  margin-right: 20px; /* Adds space between items */
+  margin-right: 30px; /* Adds space between items */
+  margin-left: 30px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px; /* Adds padding around links */
+  padding: 9px 15px; /* Adds padding around links */
   border-radius: 5px;
   background-color: #5A00B4; /* Purple button color - replaces #00cc00 */
 }
@@ -70,14 +88,18 @@ nav ul li a:hover {
   background-color: #330066; /* Darker purple on hover - replaces #009900 */
 }
 
-.landscapeimg {
+.icon-img {
   display: block;
   width: 10%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.landscapeimg {
+  margin-top: 20px;
 }
 
 img {
@@ -98,19 +120,31 @@ img {
   align-items: flex-start;
 }
 
+.news-header {
+  margin-bottom: 30px;
+}
+
 .news-item {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
 
+.news-item h3 {
+  margin-bottom: 30px;
+}
+
 .events {
-  margin-top: 20px;
-  border-top: 2px solid #5A00B4;
+  /* margin-top: 5px; */
+  /* border-top: 2px solid #5A00B4; */
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.events h2 {
+  margin: 0;
 }
 
 .event-item {
@@ -124,9 +158,13 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+p#last {
+  padding-bottom: 5px;
+}
+
 /* Footer Styles */
 footer {
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -152,14 +190,20 @@ p#copyright {
 
 /* h2 within mission */
 .mission h2 {
-  color: #333;
+  color: #222;
+}
+
+.mission h3 {
+  margin-top: 30px;
+  margin-bottom: 8px;
+  color: #444;
 }
 
 /* p within mission */
 .mission p {
   color: #666;
 }
-/* --BEGIN MIGRATED about.css MARKUP-- */
+/* --END MIGRATED about.css MARKUP-- */
 
 
 /* --BEGIN MIGRATED calendar.css MARKUP-- */
@@ -188,12 +232,14 @@ p#copyright {
 .container-prog {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 12px;
 }
 
 /* section class for programs.html specifically */
 .our-programs {
   margin-top: 20px;
+  border-top: 2px solid #5A00B4;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -222,6 +268,8 @@ p#copyright {
 /* section class for contact.css specifically */
 .contacts {
   margin-top: 20px;
+  border-top: 2px solid #5A00B4;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
