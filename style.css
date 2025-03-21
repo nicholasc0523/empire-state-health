@@ -246,7 +246,7 @@ p#copyright {
 }
   
 .our-programs div {
-  margin-bottom: 40px;
+  margin-bottom: 55px;
   flex: 0 0 calc(25% - 10px);
 }
   
@@ -280,17 +280,24 @@ p#copyright {
   flex: 0 0 calc(30% - 50px);
 }
   
-.contacts img {
+.contacts h3,
+.contacts p {
+  text-align: center;
+  margin: 12px;
+}
+
+.profile {
   width: 100%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
 }
-  
-.contacts h3,
-.contacts p {
-  text-align: center;
-  margin: 12px;
+
+.dance {
+    width: 100%;
+  height: 70%;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 /* --END MIGRATED contact.css MARKUP-- */
 
